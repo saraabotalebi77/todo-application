@@ -1,0 +1,5 @@
+.menu_wrapper{
+    background-image: url("./../assets/images/Ellipse-1.png") , url("./../assets/images//Ellipse-2.png");
+    background-repeat: no-repeat;
+    background-position: -10px 103% ,103% -45px;
+}

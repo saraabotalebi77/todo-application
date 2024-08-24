@@ -1,0 +1,56 @@
+/* customized date picker */
+.rmdp-container{
+    border :1px solid rgb(209,213,219);
+    border-radius : 4px;
+    padding : 4px 8px;
+    background-image: url("./../assets/images/date.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.rmdp-container:focus-within{
+    outline : 2px solid #4f46e5;
+}
+.rmdp-input{
+    width : 90%;
+    font-size : 15px;
+    border : none !important;
+    box-shadow: none !important;
+}
+.rmdp-input::placeholder{
+    color : rgb(107,114,128)
+}
+.rmdp-arrow-container{
+    align-items: center;
+}
+.rmdp-left i,
+.rmdp-right i{
+    margin :0;
+}
+.rmdp-shadow,
+.rmdp-ep-shadow:after {
+    box-shadow: 0 0 4px #aba2ffcc;
+}
+.rmdp-day.rmdp-selected span:not(.highlight){
+    background-color: #6352ff !important;
+    box-shadow: none !important;
+}
+.rmdp-week-day {
+    color: #6352ff !important;
+}
+.rmdp-day.rmdp-today span {
+    background-color: #b5adfd8e !important;
+}
+@media (hover: hover) {
+    .rmdp-day:not(.rmdp-disabled,.rmdp-day-hidden) span:hover {
+        background-color: #6352ff8e !important;
+        color: #fff;
+    }
+}
+.rmdp-header .rmdp-arrow {
+    border : solid #6352ff;
+    border-width: 0 2px 2px 0;
+}
+.rmdp-header .rmdp-arrow-container:hover {
+    background-color: #6352ff ;
+    box-shadow : none ;
+}

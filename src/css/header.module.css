@@ -1,0 +1,7 @@
+.header{
+    background-image: url("./../assets/images/Ellipse-1.png") , url("./../assets/images//Ellipse-2.png") ,linear-gradient(#9b87ff,#e1d6ff);
+    background-repeat: no-repeat;
+    background-size: 100px ,80px , 100% 100%;
+    background-position: left -50% , right 20%;
+    box-shadow : 0 0 6px #c1b5ff;
+}

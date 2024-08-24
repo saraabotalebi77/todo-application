@@ -1,0 +1,16 @@
+.btns_priority_wrapper {
+    transform: rotateY(180deg);
+  }
+  .btn_priority:hover svg,
+  .btn_priority:hover ~ .btn_priority svg,
+  .priority svg,
+  .priority ~ .btn_priority svg{
+    fill: #fde047;
+  }
+  .btn_priority:hover path,
+  .priority path,
+  .btn_priority:hover ~ .btn_priority path,
+  .priority ~ .btn_priority path {
+    stroke: #fde047;
+  }
+  
