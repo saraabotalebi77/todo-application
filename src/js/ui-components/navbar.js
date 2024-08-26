@@ -11,13 +11,13 @@ import { MdFormatListBulletedAdd } from "react-icons/md";
 export default function Navbar({ openMenu, set_openMenu, location, number_draftedTodo_notSeen }) {
   const [searchParams, set_searchParams] = useSearchParams();
   let activeLink = 0;
-  if (location.pathname == "/draft-todos") {
+  if (location.pathname == "/draft") {
     activeLink = 1;
-  } else if (location.pathname == "/important-todos") {
+  } else if (location.pathname == "/important") {
     activeLink = 2;
-  } else if (location.pathname == "/done-todos") {
+  } else if (location.pathname == "/done") {
     activeLink = 3;
-  } else if (location.pathname == "/add-todo") {
+  } else if (location.pathname == "/add") {
     activeLink = 4;
   }
 
@@ -61,14 +61,14 @@ export default function Navbar({ openMenu, set_openMenu, location, number_drafte
           </button>
         </div>
         <ul className="relative overflow-auto grow text-white text-lg flex flex-col">
-          {!!activeLink  && (
+         
             <hr
               className="absolute top-0 left-0 h-8 w-px border-none bg-[#dfdfdfab] transition-top duration-300"
               style={{
                 top: `${(activeLink-1) * 30 + (activeLink-1) * 10}px`,
               }}
             />
-          )}
+       
           <li className="py-0.5 px-3 capitalize mb-1 flex justify-between items-center">
             <Link
               to={searchParams.get("todo") ? `/draft?todo=${searchParams.get("todo")}` : "/draft"}
