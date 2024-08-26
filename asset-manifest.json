@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.068b0b15.css",
-    "main.js": "/static/js/main.b01d356e.js",
-    "static/media/Roboto-Medium.ttf": "/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
-    "static/media/Roboto-Thin.ttf": "/static/media/Roboto-Thin.a732a12eb07742232407.ttf",
-    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
-    "static/media/Roboto-Bold.ttf": "/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
-    "static/media/date.svg": "/static/media/date.978366859d4c4501758b.svg",
-    "index.html": "/index.html",
-    "main.068b0b15.css.map": "/static/css/main.068b0b15.css.map",
-    "main.b01d356e.js.map": "/static/js/main.b01d356e.js.map"
+    "main.css": "/todo-application/static/css/main.23225a20.css",
+    "main.js": "/todo-application/static/js/main.b01d356e.js",
+    "static/media/Roboto-Medium.ttf": "/todo-application/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
+    "static/media/Roboto-Thin.ttf": "/todo-application/static/media/Roboto-Thin.a732a12eb07742232407.ttf",
+    "static/media/Roboto-Regular.ttf": "/todo-application/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Roboto-Bold.ttf": "/todo-application/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
+    "index.html": "/todo-application/index.html",
+    "static/media/date.svg": "/todo-application/static/media/date.978366859d4c4501758b.svg",
+    "main.23225a20.css.map": "/todo-application/static/css/main.23225a20.css.map",
+    "main.b01d356e.js.map": "/todo-application/static/js/main.b01d356e.js.map"
   },
   "entrypoints": [
-    "static/css/main.068b0b15.css",
+    "static/css/main.23225a20.css",
     "static/js/main.b01d356e.js"
   ]
 }
